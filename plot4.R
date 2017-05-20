@@ -11,7 +11,7 @@ with(hpc, plot(datetime, Global_active_power, xlab = "", ylab = "Global Active P
 with(hpc, lines(datetime, Global_active_power))
 
 #second plot (bottom left)
-with(hpc, plot(datetime, Global_active_power, xlab = "", ylab = "Energy sub metering", ylim = c(0, 40), type = "n"))
+with(hpc, plot(datetime, Sub_metering_1, xlab = "", ylab = "Energy sub metering", ylim = c(0, 40), type = "n"))
 with(hpc, lines(datetime, Sub_metering_1, col = "black"))
 with(hpc, lines(datetime, Sub_metering_2, col = "red"))
 with(hpc, lines(datetime, Sub_metering_3, col = "blue"))
